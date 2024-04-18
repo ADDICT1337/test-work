@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header header-main">
+            <div class="container">
+                <div class="header__inner">
+                    <a href="#" class="logo">
+                        Tanatos<strong>Studio</strong>
+                    </a>
+
+                    <span class="menu-label">Menu</span>
+
+                    <button class="header__burger-btn">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </button>
+                    <button class="close-btn">
+                      <span></span>
+                      <span></span>
+                    </button>
+
+                      <nav class="menu">
+                        <ul class="menu-list">
+                          <li class="menu__list-item"><a class="menu__list-link" href="#">HOME</a></li>
+                          <li class="menu__list-item"><a class="menu__list-link" href="#">ABOUT US</a></li>
+                          <li class="menu__list-item"><a class="menu__list-link" href="#">SERVICES</a></li>
+                          <li class="menu__list-item"><a class="menu__list-link" href="#">OUR WORKS</a></li>
+                          <li class="menu__list-item"><a class="menu__list-link" href="#">CONTACT</a></li>
+                        </ul>
+
+                        <div class="header-footer">
+                          <ul class="social-footer">
+                            <li class="social-footer__item">
+                              <a href="#"><img src="icons/5.png" alt="5"></a>
+                            </li>
+                            <li class="social-footer__item">
+                              <a href="#"><img src="icons/4.png" alt="4"></a>
+                            </li>
+                            <li class="social-footer__item">
+                              <a href="#"><img src="icons/3.png" alt="3"></a>
+                            </li>
+                            <li class="social-footer__item">
+                              <a href="#"><img src="icons/2.png" alt="2"></a>
+                            </li>
+                            <li class="social-footer__item">
+                              <a href="#"><img src="icons/1.png" alt="1"></a>
+                            </li>
+                          </ul>
+                        </div>
+
+                      </nav>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+          <section class="top">
+            <div class="container">
+              <div class="picture" style="background-image: url(image/BG.png)">
+              <h1 class="title">WE DESIGN <strong>THINGS</strong></h1>
+              <p class="title-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, <br>
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                <div class="btn-top">
+                  <a class="btn-hire-us-relative" href="#">HIRE US</a>
+                  <a class="btn-our-works-relative" href="#">OUR WORKS</a>
+                </div>
+              </div>
+            </div>
+            <div class="scroll-container">
+              <a href="#" class="scroll-down"></a>
+            </div>
+          </section>
+        </main>
+
+        <div id="modal" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 class="modal-title">HIRE <strong>US</strong></h2>
+            <p class="modal-text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia <br>
+               deserunt mollit anim id est laborum</p>
+            <form>
+              <input type="email" placeholder="Your Email">
+              <input type="text" placeholder="Subject">
+              <textarea placeholder="Your Message"></textarea>
+              <button type="submit">SEND MESSAGE</button>
+            </form>
+          </div>
+        </div>
+
+        <main class="section">
+          <section class="our">
+            <div class="container">
+              <ul class="our-list">
+                <li class="our-list__item">
+                  <img class="our-list__img" src="image/print1.jpg" alt="">
+                    <h2 class="our-list__text">PRINT DESIGN</h2>
+                    <p class="our-list__p">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit</p>
+                </li>
+                <li class="our-list__item">
+                  <img class="our-list__img" src="image/web2.jpg" alt="">
+                  <h2 class="our-list__text">WEB DESIGN</h2>
+                  <p class="our-list__p">Incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                </li>
+                <li class="our-list__item">
+                  <img class="our-list__img" src="image/app1.jpg" alt="">
+                  <h2 class="our-list__text">APP DESIGN</h2>
+                  <p class="our-list__p">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis</p>
+                </li>
+                <li class="our-list__item">
+                  <img class="our-list__img" src="image/logo1.jpg" alt="">
+                  <h2 class="our-list__text">LOGO DESIGN</h2>
+                  <p class="our-list__p">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat </p>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </main>
+
+        <main class="center">
+            <div class="container">
+              <form class="email-form-custom" action="#" method="post">
+                <div class="form-row-custom">
+                  <div class="form-group-custom">
+                    <input type="email" name="email" id="email" placeholder="Enter Your email adress for newsletter" required>
+                  </div>
+                  <button type="submit" class="btn-submit-custom">SUBSCRIBE</button>
+                </div>
+              </form>
+            </div>
+        </main>
+
+        <main class="grid">
+          <div class="container">
+            <h1 class="grid-title">OUR <strong>WORKS</strong></h1>
+            <p class="grid-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco <br>
+              laboris nisi ut aliquip ex ea commodo consequat</p>
+              <ul class="hover-effect-cover">
+                <li>
+                  <img class="grid-img" src="image/grid1.png" alt="">
+                  <div class="effect-to-bottom">
+                    <h2>ABAZOO WEBSITE</h2>
+                    <p>Quis nostrud exercitation ullamco laboris nisi <br>
+                      ut aliquip ex ea commodo consequat. Duis</p>
+                    <a href="">SHOW PROJECT</a>
+                  </div>
+                </li>
+                <li>
+                  <img class="grid-img" src="image/grid2.png" alt="">
+                  <div class="effect-to-bottom">
+                    <h2>ABAZOO WEBSITE</h2>
+                    <p>Quis nostrud exercitation ullamco laboris nisi <br>
+                      ut aliquip ex ea commodo consequat. Duis</p>
+                    <a href="">SHOW PROJECT</a>
+                  </div>
+                </li>
+                <li>
+                  <img class="grid-img" src="image/grid3.png" alt="">
+                  <div class="effect-to-bottom">
+                    <h2>ABAZOO WEBSITE</h2>
+                    <p>Quis nostrud exercitation ullamco laboris nisi <br>
+                      ut aliquip ex ea commodo consequat. Duis</p>
+                    <a href="">SHOW PROJECT</a>
+                  </div>
+                </li>
+                <li>
+                  <img class="grid-img" src="image/grid4.png" alt="">
+                  <div class="effect-to-bottom">
+                    <h2>ABAZOO WEBSITE</h2>
+                    <p>Quis nostrud exercitation ullamco laboris nisi <br>
+                      ut aliquip ex ea commodo consequat. Duis</p>
+                    <a href="">SHOW PROJECT</a>
+                  </div>
+                </li>
+                <li>
+                  <img class="grid-img" src="image/grid5.png" alt="">
+                  <div class="effect-to-bottom">
+                    <h2>ABAZOO WEBSITE</h2>
+                    <p>Quis nostrud exercitation ullamco laboris nisi <br>
+                      ut aliquip ex ea commodo consequat. Duis</p>
+                    <a href="">SHOW PROJECT</a>
+                  </div>
+                </li>
+                <li>
+                  <img class="grid-img" src="image/grid6.png" alt="">
+                  <div class="effect-to-bottom">
+                    <h2>ABAZOO WEBSITE</h2>
+                    <p>Quis nostrud exercitation ullamco laboris nisi <br>
+                      ut aliquip ex ea commodo consequat. Duis</p>
+                    <a href="">SHOW PROJECT</a>
+                  </div>
+                </li>
+              </ul>  
+          </div>
+          <button type="submit" class="btn-show-more">SHOW MORE</button>
+        </main>
+
+        
+        <main class="main__list">
+            <div class="main__text">
+              <div class="container">
+                <h1 class="text">SAY <strong>HELLO</strong></h1>
+                <p class="text__p">Excepteur sint occaecat cupidatat non proident, sunt in culpa <br>
+                qui officia deserunt mollit anim id est laborum</p>
+
+                <form class="email-form">
+                    <div class="form-row">
+                      <div class="form-group">
+                        <input type="email" id="email" name="email" required placeholder="Your Email">
+                      </div>
+                  
+                      <div class="form-group">
+                        <input type="text" id="name" name="name" required placeholder="Subject">
+                      </div>
+                    </div>
+                  
+                    <div class="form-group">
+                      <textarea id="message" name="message" rows="4" required placeholder="Your Message"></textarea>
+                    </div>
+                  
+                    <button class="btn-hire-us" type="submit">HIRE US</button>
+
+                    <div class="footer-menu">
+                      <ul class="social">
+                        <li class="footer-menu__item">
+                          <a href="#"><img src="icons/5.png" alt="5"></a>
+                        </li>
+                        <li class="footer-menu__item">
+                          <a href="#"><img src="icons/4.png" alt="4"></a>
+                        </li>
+                        <li class="footer-menu__item">
+                          <a href="#"><img src="icons/3.png" alt="3"></a>
+                        </li>
+                        <li class="footer-menu__item">
+                          <a href="#"><img src="icons/2.png" alt="2"></a>
+                        </li>
+                        <li class="footer-menu__item">
+                          <a href="#"><img src="icons/1.png" alt="1"></a>
+                        </li>
+                      </ul>
+                    </div>
+                </form>
+              </div>
+            </div>
+        </main>
+      
+
+        <footer class="footer">
+          <p class="footer__p">© 2022 COPYRIGHT</p>
+        </footer>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
